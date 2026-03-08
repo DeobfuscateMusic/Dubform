@@ -19,7 +19,7 @@
 - **Standalone Mode**: Runs as a native application on macOS (Sonoma, Sequoia, Tahoe) without a browser.
 - **Tuned Looping**: Advanced sampler logic that forces audio segments to cycle at MIDI-responsive frequencies.
 - **Dub Filter**: 4-pole (24dB/oct) State Variable Filter with asymmetrical saturation for analog warmth.
-- **Space Echo**: Multi-tap delay with non-linear feedback and "Tail-Resample" technology for infinite sound design.
+- **Space Echo**: Multi-tap delay with non-linear feedback and "Tail-Resample" for sound design.
 - **Teal Noir UI**: High-contrast, industrial dark mode interface optimized for precision and low-light focus.
 - **Zero Dependencies**: Fully native macOS execution. No external libraries or internet required.
 
