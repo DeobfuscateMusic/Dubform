@@ -9,10 +9,6 @@
 
 ---
 
-<img width="1413" height="721" alt="Dubformpreview" src="https://github.com/user-attachments/assets/7ad0b1d1-afdd-43c6-9dfa-a538c938644f" />
-
----
-
 ## 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬
 
 - **12-Bit Prophet Engine**: Authentic vintage quantization with variable clock rates (44.1kHz down to 6kHz) for classic aliasing.
