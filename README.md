@@ -1,10 +1,10 @@
 # 𝕯𝖚𝖇𝖋𝖔𝖗𝖒
 
-> 12-bit Sampler for Dub Techno Processing.
+> _Dubform is a 12-bit Sampler for Dub Techno Processing. Designed specifically for deep textures and atmospheres. It combines a tape delay and a lo-fi engine with advanced spatial delays and asymmetrical saturation to deliver authentic analog warmth and industrial grit._
 
 ![Under Development](https://img.shields.io/badge/Status-Under%20Development-orange)
 ![macOS Support](https://img.shields.io/badge/macOS-Sonoma%20%7C%20Sequoia%20%7C%20Tahoe-000000?style=flat-square&logo=apple&logoColor=white)
-![Architecture](https://img.shields.io/badge/Architecture-Universal%20(Silicon%20%26%20Intel)-606060?style=flat-square)
+![Architecture](https://img.shields.io/badge/Architecture-Universal%20Silicon%20%26%20Intel-black?labelColor=606060&style=flat-square&logo=apple&logoColor=white)
 ![Format](https://img.shields.io/badge/Format-AU%20%7C%20VST3-00CED1?style=flat-square)
 ![DAW](https://img.shields.io/badge/DAW-Ableton%20Live%2012%2B-000000?style=flat-square&logo=abletonlive&logoColor=white)
 
