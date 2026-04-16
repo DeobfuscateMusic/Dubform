@@ -10,7 +10,7 @@
 
 ---
 
-<img width="1421" height="728" alt="Dubformpreview" src="https://github.com/user-attachments/assets/209655ba-772e-443c-8123-494701f2722f" />
+https://github.com/user-attachments/assets/3d177101-0db6-4ba9-9e38-32033b45b060
 
 ---
 
