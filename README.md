@@ -63,6 +63,6 @@ https://github.com/user-attachments/assets/3d177101-0db6-4ba9-9e38-32033b45b060
 
 ---
 
-<p align="center"><img width="227" height="198" alt="Logo Samurai Horse Round Small" src="https://github.com/user-attachments/assets/c51a9f04-0d19-448a-9115-22bb3f967c7a" /></p>
+<p align="center"><img width="91" height="78" alt="Logo_Deobfuscate_RoundXS" src="https://github.com/user-attachments/assets/bc520a4f-d36b-45e3-8e00-c2b928b4f449" /></p>
 <p align="center"><code>𝕯𝖊𝖔𝖇𝖋𝖚𝖘𝖈𝖆𝖙𝖊</code></p>
 <p align="center">2026</p>
