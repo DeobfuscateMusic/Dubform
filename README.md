@@ -21,7 +21,7 @@ https://github.com/user-attachments/assets/5829be5e-47bb-4e1f-9735-d871cfe98de1
 - **12-Bit Prophet Engine**: Authentic vintage quantization with variable clock rates (44.1kHz down to 6kHz) for classic aliasing.
 - **Tuned Looping**: Advanced sampler logic that forces audio segments to cycle at MIDI-responsive frequencies.
 - **Dub Filter**: 4-pole (24dB/oct) State Variable Filter with asymmetrical saturation for analog warmth.
-- **Space Echo**: Multi-tap delay with non-linear feedback and "Tail-Resample" for sound design.
+- **Space Echo**: Multi-tap delay with non-linear feedback for sound design.
 - **Teal Noir UI**: High-contrast, industrial dark mode interface optimized for precision and low-light focus.
 - **Zero Dependencies**: Fully native macOS execution. No external libraries or internet required.
 
