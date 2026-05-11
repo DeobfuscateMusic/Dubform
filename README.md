@@ -38,8 +38,8 @@ _<p align="center">12-bit Sampler for Dub Techno Processing. Combines a tape del
 ## 𝐈𝐧𝐬𝐭𝐚𝐥𝐥𝐚𝐭𝐢𝐨𝐧
 
 ### 𝐒𝐭𝐚𝐧𝐝𝐚𝐥𝐨𝐧𝐞
-1. Download the latest [`Dubform.zip`].
-2. Extract & Drag to your `Applications` folder.
+1. Download the latest [`Dubform.zip`](https://github.com/DeobfuscateMusic/Dubform/releases/download/Dubform-0.9.9/Dubform.zip).
+2. Extract & Drag `Dubform` to your `Applications` folder.
 3. Open `Dubform`.
 4. Click on `Upload Sample`
 
