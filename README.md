@@ -100,6 +100,10 @@ https://github.com/user-attachments/assets/5829be5e-47bb-4e1f-9735-d871cfe98de1
 
 ---
 
+_This software and plugins are free. Don't forget to give it a ⭐ on Github if you liked the project._
+
+---
+
 <p align="center"><img width="91" height="78" alt="Logo_Deobfuscate_RoundXS" src="https://github.com/user-attachments/assets/bc520a4f-d36b-45e3-8e00-c2b928b4f449" /></p>
 <p align="center"><code>𝕯𝖊𝖔𝖇𝖋𝖚𝖘𝖈𝖆𝖙𝖊</code></p>
 <p align="center">2026</p>
