@@ -43,12 +43,12 @@ https://github.com/user-attachments/assets/5829be5e-47bb-4e1f-9735-d871cfe98de1
 3. Open `Dubform`.
 4. Click on `Upload Sample`
 
-### 𝐀𝐮𝐝𝐢𝐨 𝐔𝐧𝐢𝐭 (𝐀𝐔) (𝐀𝐛𝐥𝐞𝐭𝐨𝐧 𝟏𝟐)
+### 𝐀𝐮𝐝𝐢𝐨 𝐔𝐧𝐢𝐭 (𝐀𝐔) (𝐀𝐛𝐥𝐞𝐭𝐨𝐧 𝟏𝟐) - 𝐔𝐧𝐝𝐞𝐫 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭
 1. Copy `Dubform.component` to `/Library/Audio/Plug-Ins/Components`.
 2. Rescan plugins in Ableton Live 12.
 3. Create a MIDI track and load `Dubform` to begin processing
 
-### 𝐕𝐒𝐓𝟑 (𝐀𝐛𝐥𝐞𝐭𝐨𝐧 𝟏𝟐)
+### 𝐕𝐒𝐓𝟑 (𝐀𝐛𝐥𝐞𝐭𝐨𝐧 𝟏𝟐) - 𝐔𝐧𝐝𝐞𝐫 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭
 1. Copy `Dubform.vst3` to `/Library/Audio/Plug-Ins/VST3`.
 2. Rescan plugins in Ableton Live 12.
 3. Create a MIDI track and load `Dubform` to begin processing.
