@@ -12,7 +12,7 @@ _<p align="center">12-bit Sampler for Dub Techno Processing. Combines a tape del
 
 ---
 
-https://github.com/user-attachments/assets/5829be5e-47bb-4e1f-9735-d871cfe98de1
+<img width="1440" height="862" alt="dubform preview" src="https://github.com/user-attachments/assets/f1a4f2fa-5435-498e-bef2-1643eb8ff7dd" />
 
 ---
 
