@@ -1,6 +1,6 @@
 <p align="center"><img width="312" height="243" alt="Dubform Small" src="https://github.com/user-attachments/assets/e166f0b5-c7a1-4b0a-94eb-203a7c4b1b26" /></p>
 
-_<p align="center">12-bit Sampler for Dub Techno Processing. Combines a tape delay and a lo-fi engine with spatial delays & asymmetrical saturation. Designed specifically for deep textures and atmospheres.</p>_
+_<p align="center">Dub Techno 12-bit Sampler & Tape Delay. Combines a tape delay and a lo-fi engine with spatial delays & asymmetrical saturation. Designed specifically for deep textures and atmospheres.</p>_
 
 ---
 
