@@ -1,6 +1,6 @@
-<p align="center"><img width="312" height="243" alt="Dubform Small" src="https://github.com/user-attachments/assets/e166f0b5-c7a1-4b0a-94eb-203a7c4b1b26" /></p>
+<p align="center"><img width="210" height="164" alt="dubformbanner" src="https://github.com/user-attachments/assets/33318e27-2958-4e98-a061-d375c6bdd379" /></p>
 
-_<p align="center">Dub Techno 12-bit Sampler & Tape Delay. Combines a tape delay and a lo-fi engine with spatial delays & asymmetrical saturation. Designed specifically for deep textures and atmospheres.</p>_
+ _<p align="center">Dub Techno 12-bit Sampler & Tape Delay. Combines a tape delay and a lo-fi engine with spatial delays & asymmetrical saturation. Designed specifically for deep textures and atmospheres.</p>_
 
 ---
 
@@ -104,6 +104,5 @@ _This software and plugins are free. Don't forget to give it a ⭐ on Github if 
 
 ---
 
-<p align="center"><img width="91" height="78" alt="Logo_Deobfuscate_RoundXS" src="https://github.com/user-attachments/assets/bc520a4f-d36b-45e3-8e00-c2b928b4f449" /></p>
-<p align="center"><code>𝕯𝖊𝖔𝖇𝖋𝖚𝖘𝖈𝖆𝖙𝖊</code></p>
-<p align="center">2026</p>
+<p align="center"><code>𝒦𝑜𝓊𝓈𝑒𝒾</code></p>
+<p align="center">2026</code></p>
