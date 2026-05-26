@@ -6,7 +6,7 @@
 
 ![Version](https://img.shields.io/badge/Version-1.0.0-brightgreen?style=flat-square)
 ![macOS Support](https://img.shields.io/badge/macOS-Sonoma%20%7C%20Sequoia%20%7C%20Tahoe-000000?style=flat-square&logo=apple&logoColor=white)
-![Architecture](https://img.shields.io/badge/Architecture-Intel%20%7C%20Arm64%20%7C%20Universal-black?labelColor=606060&style=flat-square&logo=apple&logoColor=white)
+![Architecture](https://img.shields.io/badge/Architecture-Intel%20%7C%20Arm64%20%7C%20U2B-black?labelColor=606060&style=flat-square&logo=apple&logoColor=white)
 ![Format](https://img.shields.io/badge/Format-Standalone%20%7C%20AU%20%7C%20VST3-00CED1?style=flat-square)
 ![DAW](https://img.shields.io/badge/DAW-Ableton%20Live%2012%2B-000000?style=flat-square&logo=abletonlive&logoColor=white)
 
@@ -32,7 +32,7 @@
 ## 𝐒𝐲𝐬𝐭𝐞𝐦 𝐑𝐞𝐪𝐮𝐢𝐫𝐞𝐦𝐞𝐧𝐭𝐬
 
 - **macOS**: 14.0 (Sonoma), 15.0 (Sequoia) or 16.0 (Tahoe).
-- **Architecture**: Intel, Arm64 & Universal.
+- **Architecture**: Intel, Arm64 (Silicon) & U2B (Universal).
 - **DAW**: Ableton Live 11+, Ableton Live 12+, Logic Pro & Reason with [BlackHole](https://github.com/ExistentialAudio/BlackHole) driver.
 
 ---
@@ -40,7 +40,7 @@
 ## 𝐈𝐧𝐬𝐭𝐚𝐥𝐥𝐚𝐭𝐢𝐨𝐧
 
 ### 𝐒𝐭𝐚𝐧𝐝𝐚𝐥𝐨𝐧𝐞
-1. Download the latest [`Dubform.zip`](https://github.com/DeobfuscateMusic/Dubform/releases/download/Dubform-0.9.9/Dubform.zip).
+1. Download the latest [`Dubform`](https://github.com/KouseiMusic/Dubform/releases/tag/Dubform-1.0.0).
 2. Extract & Drag `Dubform` to your `Applications` folder.
 3. Open `Dubform`.
 4. Click on `Upload Sample`
