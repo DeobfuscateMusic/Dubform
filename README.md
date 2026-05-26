@@ -22,10 +22,10 @@
 - **Tuned Looping**: Advanced sampler logic that forces audio segments to cycle at MIDI-responsive frequencies.
 - **Dub Filter**: 4-pole (24dB/oct) State Variable Filter with asymmetrical saturation for analog warmth.
 - **Space Echo**: Multi-tap delay with non-linear feedback for sound design.
-- **8 Curated Dub Presets**: Instantly recall classic deep and dub techno configurations like Basic Channel, Deepchord Space, and Echospace Tape.
-- **Live Output Recording**: Capture your live tweaked and effected performances directly inside the application.
+- **8 Curated Dub Techno Presets**: Instantly recall classic deep and dub techno sounds.
+- **Live Output Recording**: Capture your live performances.
 - **Teal Noir UI**: High-contrast, industrial dark mode interface optimized for precision and low-light focus.
-- **Zero Dependencies**: Fully native macOS execution. No external libraries or internet required.
+- **Zero Dependencies**: Fully native macOS execution. No external libraries. No internet required.
 
 ---
 
@@ -43,7 +43,7 @@
 1. Download the latest [`Dubform`](https://github.com/KouseiMusic/Dubform/releases/tag/Dubform-1.0.0).
 2. Extract & Drag `Dubform` to your `Applications` folder.
 3. Open `Dubform`.
-4. Click on `Upload Sample`
+4. Click on `Load`
 
 ### 𝐀𝐮𝐝𝐢𝐨 𝐔𝐧𝐢𝐭 (𝐀𝐔) (𝐀𝐛𝐥𝐞𝐭𝐨𝐧 𝟏𝟐) - 𝐔𝐧𝐝𝐞𝐫 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭
 1. Copy `Dubform.component` to `/Library/Audio/Plug-Ins/Components`.
