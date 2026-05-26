@@ -12,7 +12,7 @@
 
 ---
 
-<img width="1440" height="862" alt="dubform preview" src="https://github.com/user-attachments/assets/f1a4f2fa-5435-498e-bef2-1643eb8ff7dd" />
+<img width="996" height="788" alt="dubformpreview" src="https://github.com/user-attachments/assets/23bcf855-2c19-4dda-9864-75de009603ac" />
 
 ---
 
