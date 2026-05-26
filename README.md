@@ -22,6 +22,8 @@
 - **Tuned Looping**: Advanced sampler logic that forces audio segments to cycle at MIDI-responsive frequencies.
 - **Dub Filter**: 4-pole (24dB/oct) State Variable Filter with asymmetrical saturation for analog warmth.
 - **Space Echo**: Multi-tap delay with non-linear feedback for sound design.
+- **8 Curated Dub Presets**: Instantly recall classic deep and dub techno configurations like Basic Channel, Deepchord Space, and Echospace Tape.
+- **Live Output Recording**: Capture your live tweaked and effected performances directly inside the application.
 - **Teal Noir UI**: High-contrast, industrial dark mode interface optimized for precision and low-light focus.
 - **Zero Dependencies**: Fully native macOS execution. No external libraries or internet required.
 
@@ -92,7 +94,10 @@
 
 | Control | Description |
 | :--- | :--- |
-| **Upload Sample** | Opens a file dialog to select and load a new audio file (most standard audio formats are supported). |
+| **Load** | Opens a file dialog to select and load a new audio file (most standard audio formats are supported). |
+| **Presets** | Dropdown menu featuring 8 authentic dub techno preset configurations. |
+| **Volume** | Master output volume control dial. |
+| **Record** | Start and stop live recording of the master output. |
 | **Play** | Starts playback of the loaded sample. |
 | **Pause** | Pauses playback at the current position. |
 | **Stop** | Stops playback and returns the playhead to the beginning of the sample. |
