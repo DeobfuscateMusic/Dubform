@@ -1,6 +1,6 @@
 <p align="center"><img width="210" height="164" alt="dubformbanner" src="https://github.com/user-attachments/assets/33318e27-2958-4e98-a061-d375c6bdd379" /></p>
 
- _<p align="center">Dub Techno 12-bit Sampler & Tape Delay. Combines a tape delay and lo-fi effects with spatial delays and asymmetrical saturation.</p>_
+ **_<p align="center">Dub Techno 12-bit Sampler & Tape Delay.</p>_**
 
 ---
 
@@ -24,7 +24,6 @@
 - **Space Echo**: Multi-tap delay with non-linear feedback for sound design.
 - **8 Curated Dub Techno Presets**: Instantly recall classic deep and dub techno sounds.
 - **Live Output Recording**: Capture your live performances.
-- **Teal Noir UI**: High-contrast, industrial dark mode interface optimized for precision and low-light focus.
 - **Zero Dependencies**: Fully native macOS execution. No external libraries. No internet required.
 
 ---
@@ -43,7 +42,7 @@
 1. Download the latest [`Dubform`](https://github.com/KouseiMusic/Dubform/releases/tag/Dubform-1.0.0).
 2. Extract & Drag `Dubform` to your `Applications` folder.
 3. Open `Dubform`.
-4. Click on `Load`
+4. Click on `Load`, choose a sample and start playing with your audio.
 
 ### 𝐀𝐮𝐝𝐢𝐨 𝐔𝐧𝐢𝐭 (𝐀𝐔) (𝐀𝐛𝐥𝐞𝐭𝐨𝐧 𝟏𝟐) - 𝐔𝐧𝐝𝐞𝐫 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭
 1. Copy `Dubform.component` to `/Library/Audio/Plug-Ins/Components`.
