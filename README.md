@@ -31,8 +31,9 @@
 ## 𝐒𝐲𝐬𝐭𝐞𝐦 𝐑𝐞𝐪𝐮𝐢𝐫𝐞𝐦𝐞𝐧𝐭𝐬
 
 - **macOS**: 14.0 (Sonoma), 15.0 (Sequoia) or 16.0 (Tahoe).
-- **Architecture**: Intel, Arm64 (Silicon) & U2B (Universal).
-- **DAW**: Ableton Live 11+, Ableton Live 12+, Logic Pro & Reason with [BlackHole](https://github.com/ExistentialAudio/BlackHole) driver.
+- **Architecture**: Intel (x64), Silicon (x64) & Universal (U2B).
+- **DAW (Plugin mode)**: Ableton Live 12 or 11, Logic Pro, Reason with the [BlackHole](https://github.com/ExistentialAudio/BlackHole) virtual audio driver for DAW routing in standalone mode.
+> Audio Unit (AU) and VST3 plugin formats are currently under development.
 
 ---
 
@@ -44,15 +45,13 @@
 3. Open `Dubform`.
 4. Click on `Load`, choose a sample and start playing with your audio.
 
-### 𝐀𝐮𝐝𝐢𝐨 𝐔𝐧𝐢𝐭 (𝐀𝐔) (𝐀𝐛𝐥𝐞𝐭𝐨𝐧 𝟏𝟐) - 𝐔𝐧𝐝𝐞𝐫 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭
-1. Copy `Dubform.component` to `/Library/Audio/Plug-Ins/Components`.
-2. Rescan plugins in Ableton Live 12.
-3. Create a MIDI track and load `Dubform` to begin processing
+### 𝐀𝐮𝐝𝐢𝐨 𝐔𝐧𝐢𝐭 (𝐀𝐔)
 
-### 𝐕𝐒𝐓𝟑 (𝐀𝐛𝐥𝐞𝐭𝐨𝐧 𝟏𝟐) - 𝐔𝐧𝐝𝐞𝐫 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭
-1. Copy `Dubform.vst3` to `/Library/Audio/Plug-Ins/VST3`.
-2. Rescan plugins in Ableton Live 12.
-3. Create a MIDI track and load `Dubform` to begin processing.
+> Under Development
+
+### 𝐕𝐒𝐓𝟑
+
+> Under Development
 
 ---
 
@@ -101,6 +100,14 @@
 | **Pause** | Pauses playback at the current position. |
 | **Stop** | Stops playback and returns the playhead to the beginning of the sample. |
 | **Waveform** | Click and drag along the waveform panel to scrub / seek through the audio in real-time. |
+
+---
+
+## 𝐃𝐀𝐖 𝐔𝐬𝐚𝐠𝐞
+
+**Standalone + BlackHole**: Install the [`BlackHole`](https://github.com/ExistentialAudio/BlackHole) virtual audio driver, set `Dubform` output to `BlackHole` in macOS `Audio MIDI Setup`, and route `BlackHole` as an input track in your DAW. This allows you to record the output in real time or resample it.
+
+**Audio Unit (AU) & VST3**: Plugins formats are under development. When available they will support full parameter automation and direct DAW audio routing without BlackHole.
 
 ---
 
