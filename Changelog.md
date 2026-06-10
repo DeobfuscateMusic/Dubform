@@ -38,7 +38,7 @@
 
 - Fixed the application making unnecessary network requests on startup. The interface was attempting to download fonts from external servers, causing failures on offline systems. The application now uses local system fonts on Sonoma, Sequoia, and Tahoe, requiring no internet access and improving privacy.
 
-- Updated five build-process packages to address known security vulnerabilities. While these tools are not present in the final installed application, updating them ensures a secure and modern development environment.
+- Updated build packages to address known security vulnerabilities. While these tools are not present in the final installed application, updating them ensures a secure and modern development environment.
 
 ---
 
