@@ -67,67 +67,6 @@
 
 ---
 
-## 𝐒𝐢𝐠𝐧𝐚𝐥 𝐂𝐡𝐚𝐢𝐧
-
-```
-┌─────────────────────────────────────────────────────────────────────────┐
-│                           DUBFORM SIGNAL PATH                           │
-└─────────────────────────────────────────────────────────────────────────┘
-
-  AUDIO FILE
-  (WAV / AIFF / MP3 / AAC / FLAC)
-       │
-       ▼
-┌─────────────┐
-│   SAMPLER   │  Bit Depth (2–16 bit) - reduces resolution / adds crunch
-│             │  Clock Rate (6–44.1kHz) - slows the clock / adds aliasing
-└──────┬──────┘
-       │
-       ▼
-┌─────────────┐
-│    DRIVE    │  Soft-clipping saturation stage before the filter.
-│ (pre-filter │  Pushes the signal into harmonic warmth without hard
-│ saturation) │  Distortion. Gain compensation applied automatically.
-└──────┬──────┘
-       │
-       ▼
-┌─────────────┐
-│   FILTER    │  Mode: LP / BP / HP / NOTCH
-│             │  Cutoff (20 Hz - 20 kHz) - sets the Frequency point.
-│             │  Resonance (0.0 - 1.0) - emphasises the Cutoff peak.
-└──────┬──────┘
-       │
-       ├──────────────────────────────────────┐
-       │                                      │
-       ▼                                      ▼
-  (Dry Path)                        ┌─────────────────────────────────┐
-       │                            │     TAPE ECHO                   │
-       │                            │  Rate (delay time)              │
-       │                            │  Intensity (feedback, max 0.93) │
-       │                            │ Wow/Flutter (tape pitch wobble) │
-       │                            │        ┌────────────────────────┘
-       │                            │        │
-       │                            │        │
-       │                            │    ┌───┴────┐
-       │                            │    │FEEDBACK│ ◄── Self-Loop
-       │                            │    │  LOOP  │    (Hard-Limited
-       │                            └────┤        │     below 1.0)
-       │                                 └───┬────┘
-       │                                     │
-       ▼                                     ▼
-┌─────────────────────────────────────────────────┐
-│                  MASTER OUTPUT                  │
-│              Volume (0-200%)                    │
-└───────────────────────┬─────────────────────────┘
-                        │
-           ┌────────────┼──────────────┐
-           ▼            ▼              ▼
-     AUDIO OUTPUT   VU METER       RECORDER
-                 
-```
-
----
-
 ## 𝐂𝐨𝐧𝐭𝐫𝐨𝐥𝐬
 
 ### 𝐒𝐚𝐦𝐩𝐥𝐞𝐫
@@ -194,7 +133,67 @@ Press the `Rec` button to begin capturing audio. Press it again to stop. A `.wav
 
 ---
 
-_This software is free. If you find it useful, a star on GitHub is appreciated._
+## 𝐒𝐢𝐠𝐧𝐚𝐥 𝐂𝐡𝐚𝐢𝐧
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                           DUBFORM SIGNAL PATH                           │
+└─────────────────────────────────────────────────────────────────────────┘
+
+  AUDIO FILE
+  (WAV / AIFF / MP3 / AAC / FLAC)
+       │
+       ▼
+┌─────────────┐
+│   SAMPLER   │  Bit Depth (2–16 bit) - reduces resolution / adds crunch
+│             │  Clock Rate (6–44.1kHz) - slows the clock / adds aliasing
+└──────┬──────┘
+       │
+       ▼
+┌─────────────┐
+│    DRIVE    │  Soft-clipping saturation stage before the filter.
+│ (pre-filter │  Pushes the signal into harmonic warmth without hard
+│ saturation) │  Distortion. Gain compensation applied automatically.
+└──────┬──────┘
+       │
+       ▼
+┌─────────────┐
+│   FILTER    │  Mode: LP / BP / HP / NOTCH
+│             │  Cutoff (20 Hz - 20 kHz) - sets the Frequency point.
+│             │  Resonance (0.0 - 1.0) - emphasises the Cutoff peak.
+└──────┬──────┘
+       │
+       ├──────────────────────────────────────┐
+       │                                      │
+       ▼                                      ▼
+  (Dry Path)                        ┌─────────────────────────────────┐
+       │                            │     TAPE ECHO                   │
+       │                            │  Rate (delay time)              │
+       │                            │  Intensity (feedback, max 0.93) │
+       │                            │ Wow/Flutter (tape pitch wobble) │
+       │                            │        ┌────────────────────────┘
+       │                            │        │
+       │                            │        │
+       │                            │    ┌───┴────┐
+       │                            │    │FEEDBACK│ ◄── Self-Loop
+       │                            │    │  LOOP  │    (Hard-Limited
+       │                            └────┤        │     below 1.0)
+       │                                 └───┬────┘
+       │                                     │
+       ▼                                     ▼
+┌─────────────────────────────────────────────────┐
+│                  MASTER OUTPUT                  │
+│              Volume (0-200%)                    │
+└───────────────────────┬─────────────────────────┘
+                        │
+           ┌────────────┼──────────────┐
+           ▼            ▼              ▼
+     AUDIO OUTPUT   VU METER       RECORDER
+                 
+```
+---
+
+_This software is free. If you find it useful, a ⭐️ on GitHub would help others discover it._
 
 ---
 
