@@ -45,8 +45,13 @@
 ## 𝟏.𝟎.𝟎 (𝟐𝟔-𝟎𝟓-𝟐𝟎𝟐𝟔)
 
 - Variable Bit-Depth Sampler (16-bit down to 2-bit) and Clock Rate Reduction (44.1 kHz down to 6 kHz).
+
 - Multi-Mode Filter (LP, BP, HP, Notch) with Resonance and Drive.
+
 - Tape Echo with adjustable Delay, Feedback sustain, and Wow/Flutter.
+
 - Interactive waveform display with click-to-seek and live VU metering.
+
 - Integrated live recording to stereo WAV and master volume control.
+
 - Native support for macOS Sonoma, Sequoia, and Tahoe (Universal Binary).
