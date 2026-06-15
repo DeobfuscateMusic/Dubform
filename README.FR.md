@@ -20,11 +20,11 @@
 
 - **Sampler à résolution variable** : Réduit la résolution en bits du signal entrant de 16 bits jusqu'à 2, introduisant du bruit de quantification numérique, du crunch et la texture caractéristique des samplers vintage et du hardware numérique d'époque.
 - **Sous-échantillonnage Clock Rate** : Diminue la fréquence d'échantillonnage effective de 44.1 kHz jusqu'à 6 kHz, produisant des artefacts d'aliasing et le caractère lo-fi granuleux associé au SP-1200 et au hardware Akai classique.
-- **Filter Multi-Mode** : Un filtre biquad avec quatre modes — Lowpass, Bandpass, Highpass et Notch — avec contrôle de résonance et un étage de Drive à soft-clipping de style analogique. La compensation de gain est appliquée automatiquement pour éviter les sauts de volume lorsque le drive augmente.
+- **Filter Multi-Mode** : Un filtre biquad avec quatre modes: Lowpass, Bandpass, Highpass et Notch; avec contrôle de résonance et un étage de Drive à soft-clipping de style analogique. La compensation de gain est appliquée automatiquement pour éviter les sauts de volume lorsque le drive augmente.
 - **Tape Echo** : Une unité de délai avec temps de délai et intensité de feedback ajustables, plus un LFO de Wow/Flutter qui module le temps de délai pour simuler l'instabilité de hauteur des machines à écho à bande vintage comme le Roland RE-201.
 - **8 Presets Dub Techno** : Configurations nommées couvrant une gamme de traitements classiques du dub et de la dub techno, allant d'un écho spatial propre à des textures lo-fi lourdement dégradées.
 - **Enregistrement de sortie en direct** : Capture la sortie master traitée directement dans un fichier WAV stéréo 16 bits, horodaté et téléchargé automatiquement via le bouton **Record**.
-- **VU Meter** : Appareil de mesure analogique de style vintage avec simulation balistique mécanique — attaque rapide, relâchement pondéré — pour surveiller les niveaux de sortie.
+- **VU Meter** : Appareil de mesure analogique de style vintage avec simulation balistique mécanique; attaque rapide, relâchement pondéré; pour surveiller les niveaux de sortie.
 - **Waveform Display** : Représentation visuelle de l'audio chargé avec une tête de lecture en temps réel. Cliquez ou faites glisser pour naviguer vers n'importe quelle position dans le sample.
 - **Utilisation hors ligne** : Tous les traitements s'exécutent localement. Aucune connexion réseau n'est requise pendant l'utilisation.
 
@@ -137,30 +137,30 @@ Appuyez sur le bouton `Rec` pour commencer la capture audio. Appuyez de nouveau 
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
-│                          DUBFORM SIGNAL PATH                            │
+│                           DUBFORM SIGNAL PATH                           │
 └─────────────────────────────────────────────────────────────────────────┘
 
-  FICHIER AUDIO
+  AUDIO FILE
   (WAV / AIFF / MP3 / AAC / FLAC)
        │
        ▼
 ┌─────────────┐
-│   SAMPLER   │  Bit Depth (2–16 bit) - réduit la résolution / ajoute du crunch
-│             │  Clock Rate (6–44.1kHz) - ralentit l'horloge / ajoute de l'aliasing
+│   SAMPLER   │  Bit Depth (2–16 bit) - reduces resolution / adds crunch
+│             │  Clock Rate (6–44.1kHz) - slows the clock / adds aliasing
 └──────┬──────┘
        │
        ▼
 ┌─────────────┐
-│    DRIVE    │  Étage de saturation soft-clipping avant le filtre.
-│ (pre-filter │  Apporte une chaleur harmonique sans distorsion
-│ saturation) │  brute. Compensation de gain automatique.
+│    DRIVE    │  Soft-clipping saturation stage before the filter.
+│ (pre-filter │  Pushes the signal into harmonic warmth without hard
+│ saturation) │  Distortion. Gain compensation applied automatically.
 └──────┬──────┘
        │
        ▼
 ┌─────────────┐
 │   FILTER    │  Mode: LP / BP / HP / NOTCH
-│             │  Cutoff (20 Hz - 20 kHz) - définit le point de fréquence.
-│             │  Resonance (0.0 - 1.0) - accentue le pic du Cutoff.
+│             │  Cutoff (20 Hz - 20 kHz) - sets the Frequency point.
+│             │  Resonance (0.0 - 1.0) - emphasises the Cutoff peak.
 └──────┬──────┘
        │
        ├──────────────────────────────────────┐
@@ -168,16 +168,16 @@ Appuyez sur le bouton `Rec` pour commencer la capture audio. Appuyez de nouveau 
        ▼                                      ▼
   (Dry Path)                        ┌─────────────────────────────────┐
        │                            │     TAPE ECHO                   │
-       │                            │  Rate (temps de délai)          │
+       │                            │  Rate (delay time)              │
        │                            │  Intensity (feedback, max 0.93) │
-       │                            │ Wow/Flutter (pleurage de bande) │
+       │                            │ Wow/Flutter (tape pitch wobble) │
        │                            │        ┌────────────────────────┘
        │                            │        │
        │                            │        │
        │                            │    ┌───┴────┐
        │                            │    │FEEDBACK│ ◄── Self-Loop
        │                            │    │  LOOP  │    (Hard-Limited
-       │                            └────┤        │     sous 1.0)
+       │                            └────┤        │     below 1.0)
        │                                 └───┬────┘
        │                                     │
        ▼                                     ▼
@@ -191,6 +191,7 @@ Appuyez sur le bouton `Rec` pour commencer la capture audio. Appuyez de nouveau 
      AUDIO OUTPUT   VU METER       RECORDER
                  
 ```
+
 ---
 
 _Ce logiciel est gratuit. Si vous le trouvez utile, une ⭐️ sur GitHub aiderait d'autres personnes à le découvrir._
@@ -199,5 +200,3 @@ _Ce logiciel est gratuit. Si vous le trouvez utile, une ⭐️ sur GitHub aidera
 
 <p align="center"><code>Kousei</code></p>
 <p align="center">2026</p>
-
---- END OF FILE README.md ---
